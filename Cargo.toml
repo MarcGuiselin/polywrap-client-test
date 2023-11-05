@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "polywrap-client-test"
+version = "0.0.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polywrap = "0.1.9"
+serde = {version = "1.0", features = ["derive"]}
